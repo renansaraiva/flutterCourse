@@ -1,0 +1,2 @@
+/home/renan-saraiva/Documentos/Cursos/Flutter/flutterCourse/projeto_perguntas/android/app/.cxx/Debug/3j4m1x73/x86/CMakeFiles/edit_cache.dir
+/home/renan-saraiva/Documentos/Cursos/Flutter/flutterCourse/projeto_perguntas/android/app/.cxx/Debug/3j4m1x73/x86/CMakeFiles/rebuild_cache.dir
