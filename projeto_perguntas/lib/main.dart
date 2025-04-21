@@ -31,16 +31,16 @@ class _PerguntaAppState extends State<PerguntaApp> {
           children: [
             Text(perguntas[perguntaSelecionada]),
             ElevatedButton(
-              child: Text('Resposta 1'),
-              onPressed: _responder
+              onPressed: _responder,
+              child: Text('Resposta 1')
             ),
             ElevatedButton(
-              child: Text('Resposta 2'),
-              onPressed: _responder
+              onPressed: _responder,
+              child: Text('Resposta 2')
             ),
             ElevatedButton(
-              child: Text('Resposta 3'),
-              onPressed: _responder
+              onPressed: _responder,
+              child: Text('Resposta 3')
             )
           ],
         ),
