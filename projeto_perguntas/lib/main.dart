@@ -4,10 +4,10 @@ void main() {
   runApp(new PerguntaApp());
 }
 
-class PerguntaAppState extends State<PerguntaApp> {
+class _PerguntaAppState extends State<PerguntaApp> {
   var perguntaSelecionada = 0;
   
-  void responder() {
+  void _responder() {
     setState(() {
       perguntaSelecionada++;
     });
@@ -32,15 +32,15 @@ class PerguntaAppState extends State<PerguntaApp> {
             Text(perguntas[perguntaSelecionada]),
             ElevatedButton(
               child: Text('Resposta 1'),
-              onPressed: responder
+              onPressed: _responder
             ),
             ElevatedButton(
               child: Text('Resposta 2'),
-              onPressed: responder
+              onPressed: _responder
             ),
             ElevatedButton(
               child: Text('Resposta 3'),
-              onPressed: responder
+              onPressed: _responder
             )
           ],
         ),
@@ -53,8 +53,8 @@ class PerguntaAppState extends State<PerguntaApp> {
 class PerguntaApp extends StatefulWidget {
   
   @override
-  PerguntaAppState createState() {
-    return PerguntaAppState();
+  _PerguntaAppState createState() {
+    return _PerguntaAppState();
   }
 
 }
